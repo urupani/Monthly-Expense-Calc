@@ -9,6 +9,7 @@ public class InstantDiscount implements Discount {
 	public double calculateDiscount(double amount) {
 		double amountAfterInstantDiscount=0;
 		Slabs slabsObj = new Slabs();
+		System.out.println("merge test");
 		Iterator<SlabEntry> itr;
 		try {
 		itr = slabsObj.getInstantDiscountSlabList().iterator();
